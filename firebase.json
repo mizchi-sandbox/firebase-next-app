@@ -3,6 +3,18 @@
     "public": "dist/public",
     "rewrites": [
       {
+        "source": "/icon.png",
+        "destination": "/icon.png"
+      },
+      {
+        "source": "/manifest.json",
+        "destination": "/manifest.json"
+      },
+      {
+        "source": "/sw.js",
+        "destination": "/sw.js"
+      },
+      {
         "source": "**/**",
         "function": "next"
       }

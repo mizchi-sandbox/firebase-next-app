@@ -18,6 +18,7 @@
     "install-deps": "cd dist/functions && yarn install"
   },
   "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.54",
     "firebase-admin": "^5.13.0",
     "firebase-functions": "^1.1.0",
     "next": "^6.1.1",
